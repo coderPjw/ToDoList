@@ -1,0 +1,125 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body,
+ html {
+   height: 100%;
+   width: 100%;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ body {
+   background-image: url(../img/bg.jpg);
+ }
+
+ header {
+   background-color: rgb(44, 44, 44);
+   height: 60px;
+   line-height: 60px;
+   position: relative;
+ }
+
+ header span {
+   color: white;
+   font-size: 32px;
+   position: absolute;
+   height: 60px;
+   width: 100px;
+   text-align: center;
+   line-height: 60px;
+   left: 560px;
+ }
+
+ header input {
+   display: inline-block;
+   height: 30px;
+   width: 300px;
+   font-size: 16px;
+   border-radius: 5px;
+   position: absolute;
+   left: 1050px;
+   top: 15px;
+   outline: none;
+ }
+
+ .doList,
+ .goList {
+   width: 800px;
+   margin: 100px auto;
+   position: relative;
+
+ }
+
+ .doList span,
+ .goList span {
+   color: black;
+   font-size: 30px;
+   height: 50px;
+   line-height: 50px;
+   width: 120px;
+   font-weight: 700;
+   display: inline-block;
+ }
+
+ .doList>p,
+ .goList>p {
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   border-radius: 15px;
+   position: absolute;
+   right: 0;
+   background: rgb(116, 147, 165);
+   top: 10px;
+   font-size: 12px;
+   color: white;
+   text-align: center;
+   line-height: 30px;
+ }
+
+ ul>li,
+ ol>li {
+   width: 780px;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 30px;
+   line-height: 30px;
+   border-left: cadetblue 5px solid;
+   background: white;
+   border-radius: 4px;
+   margin-bottom: 10px;
+   box-shadow: 1px 1px 5px rgb(35, 39, 39);
+ }
+
+ ol>li {
+   background: rgba(170, 170, 170, 0.795);
+ }
+
+ ul>li>p,
+ ol>li>p {
+   display: inline-block;
+   width: 700px;
+   height: 30px;
+   font-size: 16px;
+   line-height: 30px;
+   margin-left: 20px;
+ }
+
+ ul>li>a,
+ ol>li>a {
+   float: right;
+   font-size: 12px;
+   text-decoration: none;
+   color: gray;
+   height: 30px;
+   line-height: 30px;
+ }
+
+ ol>li>a {
+   color: rgb(41, 41, 41);
+ }

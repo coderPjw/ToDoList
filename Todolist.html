@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!-- /* 
+            todolist分析：
+            按下回车 存储input内容到localstorage 
+            储存的数据类型是 var todolist = [{title:'xxx',done:false}]
+            因为localstorage只能存储字符串类型 所以需要吧对象转化为字符串类型   JSON.stringify()
+            获取本地存储数据 再把字符串数据转化为对象数据类型       JSON.parse()
+        
+        */ -->
+    <header>
+        <span>ToDoList</span>
+        <input type="text" placeholder="添加ToDo" class="ipt">
+    </header>
+    <div class="doList">
+        <span>正在进行</span>
+        <p></p>
+        <ul>
+
+        </ul>
+    </div>
+    <div class="goList">
+        <span>已经完成</span>
+        <p></p>
+        <ol>
+
+        </ol>
+    </div>
+</body>
+
+</html>
